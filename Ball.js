@@ -11,8 +11,6 @@ class Ball{
 		this.spx= 4 * this.direction()
 		this.spy= 4 * this.direction()
 	}
-
-
 	draw(){
 		push()
 		noStroke()

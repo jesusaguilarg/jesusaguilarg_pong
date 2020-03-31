@@ -28,10 +28,7 @@ function draw() {
 				
 				if ((ball_player.pX>=colicion.pX && ball_player.pX<=colicion.pX+20) && (ball_player.pY>=colicion.pY && ball_player.pY<=colicion.pY+20)) {
     				ball_player.changeDirection();
-    				colicion.changeDirection()
-    				console.log('colicion id= '+ ball_player.getId + " " + 'con id= ' + colicion.getId)
-    				console.log('colicion x= '+ ball_player.pX + " " + 'con y= ' + ball_player.pY + '//// x= '+ colicion.pX + " " +'con y= ' + colicion.pY)
-    			
+    				colicion.changeDirection()  			
     			}else{
 
     			}
